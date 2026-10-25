@@ -1,0 +1,6 @@
+streamlit>=1.36
+ollama>=0.3
+easyocr>=1.7
+pillow
+numpy
+pytesseract
