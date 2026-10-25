@@ -113,8 +113,8 @@ with st.sidebar:
     st.title("⚙️ Settings")
     models = local_models()
     if not models:
-        st.error("Ollama not reachable or no model installed.\n\nRun: `ollama pull gemma3:4b`")
-    model = st.selectbox("Local model", models or ["gemma3:4b"])
+        st.error("Ollama not reachable or no model installed.\n\nRun: `ollama pull gemma3:12b`")
+    model = st.selectbox("Local model", models or ["gemma3:12b"])
     lang_label = st.selectbox("Explain in", list(LANGS))
     lang = LANGS[lang_label]
     ocr_default = LANG_TO_OCR.get(lang, "English only")
