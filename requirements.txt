@@ -4,3 +4,4 @@ easyocr>=1.7
 pillow
 numpy
 pytesseract
+gemma3:12b
